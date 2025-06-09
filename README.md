@@ -13,5 +13,4 @@ I am currently focused on:
 
 ## 🌱 My Tech Stack
 - **Frontend**: React, TailwindCSS, JavaScript, TypeScript
-- **Backend**: PHP, Twig
-- **Tools**: Git, GitHub, VS Code, Node.js
+- **Backend**: PHP, Twig, Express, NodeJs
