@@ -4,12 +4,11 @@
 
 ### Software Developer · TypeScript Enthusiast · Rust Enjoyer 🦀
 
-<p>
-    I build modern web applications, backend services and tools that are fast,
-    maintainable and preferably powered by Bun.
-</p>
+I build modern web applications, backend services and developer tools that are fast, maintainable and preferably powered by Bun.
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=RentnerKev&show_icons=true&hide_border=true&theme=transparent" alt="GitHub Stats" />
+<br />
+
+![Profile Views](https://komarev.com/ghpvc/?username=RentnerKev\&label=Profile%20Views\&style=for-the-badge)
 
 </div>
 
@@ -18,11 +17,11 @@
 ## 🧑‍💻 About Me
 
 * 🎂 I'm an **18-year-old software developer** from Germany.
-* ⚡ My main language is **TypeScript**, but I'm currently diving deeper into **Rust**.
+* ⚡ My main language is **TypeScript**, while I'm currently diving deeper into **Rust**.
 * 🧡 Huge fan of **TanStack**, **React** and the modern TypeScript ecosystem.
 * 🐇 I use **Bun** for package management, scripts and application runtimes.
 * 🗄️ I enjoy working with **PostgreSQL**, **Redis**, **Drizzle ORM** and **BullMQ**.
-* 🐳 I self-host services using **Docker**, **Proxmox**, **Forgejo** and other slightly overengineered infrastructure.
+* 🐳 I self-host services using **Docker**, **Proxmox** and **Forgejo**.
 * 🧪 I love experimenting with new technologies and turning random ideas into actual projects.
 * 🔧 Clean code, strong typing and sensible automation make me happy.
 
@@ -32,64 +31,86 @@
 
 ### Languages
 
-<p>
-    <img src="[https://skillicons.dev/icons?i=ts,js,rust,html,css](https://skillicons.dev/icons?i=ts,js,rust,html,css,php)[,php](https://skillicons.dev/icons?i=ts,js,rust,html,css,php)" alt="Languages" /> </p>
+<div align="center">
+
+![Languages](https://skillicons.dev/icons?i=ts,js,rust,php,html,css)
+
+</div>
 
 ### Frontend
 
-<p>
-    <img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="Frontend Technologies" />
-</p>
+<div align="center">
 
-* **React**
-* **TanStack Start**
-* **TanStack Router**
-* **TanStack Query**
-* **Tailwind CSS**
-* **shadcn/ui**
-* **Motion**
+![Frontend](https://skillicons.dev/icons?i=react,tailwind,vite)
+
+</div>
+
+<p align="center">
+    React · TanStack Start · TanStack Router · TanStack Query · Tailwind CSS · shadcn/ui · Motion
+</p>
 
 ### Backend & Data
 
-<p>
-    <img src="https://skillicons.dev/icons?i=bun,nodejs,postgres,redis" alt="Backend Technologies" />
-</p>
+<div align="center">
 
-* **Bun**
-* **PostgreSQL**
-* **Redis**
-* **BullMQ**
-* **Drizzle ORM**
-* **REST APIs**
-* **WebSockets**
-* **Authentication & WebAuthn**
+![Backend](https://skillicons.dev/icons?i=bun,nodejs,postgres,redis)
+
+</div>
+
+<p align="center">
+    Bun · PostgreSQL · Redis · BullMQ · Drizzle ORM · REST APIs · WebSockets · WebAuthn
+</p>
 
 ### Infrastructure & Tools
 
-<p>
-    <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,nginx" alt="Infrastructure and Tools" />
-</p>
+<div align="center">
 
-* **Docker & Docker Compose**
-* **Forgejo**
-* **GitHub Actions**
-* **Renovate**
-* **Proxmox**
-* **CI/CD Pipelines**
-* **Self-Hosted Infrastructure**
+![Infrastructure](https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,nginx)
+
+</div>
+
+<p align="center">
+    Docker · Docker Compose · Forgejo · GitHub Actions · Renovate · Proxmox · CI/CD
+</p>
 
 ---
 
-## 🧩 What I Like Building
+## 🧩 Me as TypeScript
 
 ```ts
 const kevin = {
+    name: 'Kevin',
+    username: 'RentnerKev',
     role: 'Software Developer',
+
     favoriteLanguage: 'TypeScript',
-    learning: 'Rust',
-    runtime: 'Bun',
-    frontend: ['React', 'TanStack', 'Tailwind CSS'],
-    backend: ['PostgreSQL', 'Redis', 'BullMQ', 'Drizzle ORM'],
+    currentlyLearning: 'Rust',
+    preferredRuntime: 'Bun',
+
+    frontend: [
+        'React',
+        'TanStack Start',
+        'TanStack Router',
+        'TanStack Query',
+        'Tailwind CSS',
+    ],
+
+    backend: [
+        'PostgreSQL',
+        'Redis',
+        'BullMQ',
+        'Drizzle ORM',
+        'WebSockets',
+    ],
+
+    infrastructure: [
+        'Docker',
+        'Proxmox',
+        'Forgejo',
+        'GitHub Actions',
+        'Renovate',
+    ],
+
     interests: [
         'Modern web applications',
         'Developer tools',
@@ -97,6 +118,7 @@ const kevin = {
         'Self-hosting',
         'Clean architecture',
     ],
+
     status: 'Probably building something unnecessarily advanced',
 } as const
 ```
@@ -109,8 +131,8 @@ const kevin = {
 * ⚛️ Building full-stack applications with **TanStack Start**
 * 🗃️ Designing reliable systems with **PostgreSQL** and **Redis**
 * ⚙️ Automating deployments, releases and dependency updates
-* ☁️ Developing integrations and applications for self-hosted platforms
-* 📦 Creating reusable packages, components and internal developer tools
+* ☁️ Developing integrations for self-hosted platforms
+* 📦 Creating reusable packages, components and developer tools
 
 ---
 
@@ -127,23 +149,17 @@ const kevin = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=[RentnerKev](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&theme=transparent)&show_icons=true&hide_border=true&theme=transparent" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=RentnerKev&show_icons=true&hide_border=true&theme=transparent" alt="Kevin's GitHub Stats" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[RentnerKev](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&theme=transparent)&layout=compact&hide_border=true&theme=transparent" alt="Most Used Languages" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=[RentnerKev](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&hide_border=true&theme=transparent)&hide_border=true&theme=transparent" alt="GitHub Streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=RentnerKev&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Kevin's Most Used Languages" />
 
 </div>
 
----
-
-## 🐍 Contribution Snake
+<br />
 
 <div align="center">
+
+<img src="https://streak-stats.demolab.com?user=RentnerKev&hide_border=true&theme=transparent" alt="Kevin's GitHub Streak" />
 
 </div>
 
