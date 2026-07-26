@@ -6,8 +6,6 @@
 
 I build modern web applications, backend services and developer tools that are fast, maintainable and preferably powered by Bun.
 
-<br />
-
 ![Profile Views](https://komarev.com/ghpvc/?username=RentnerKev\&label=Profile%20Views\&style=for-the-badge)
 
 </div>
@@ -22,7 +20,7 @@ I build modern web applications, backend services and developer tools that are f
 * 🐇 I use **Bun** for package management, scripts and application runtimes.
 * 🗄️ I enjoy working with **PostgreSQL**, **Redis**, **Drizzle ORM** and **BullMQ**.
 * 🐳 I self-host services using **Docker**, **Proxmox** and **Forgejo**.
-* 🧪 I love experimenting with new technologies and turning random ideas into actual projects.
+* 🧪 I love turning random ideas into actual projects.
 * 🔧 Clean code, strong typing and sensible automation make me happy.
 
 ---
@@ -31,45 +29,37 @@ I build modern web applications, backend services and developer tools that are f
 
 ### Languages
 
-<div align="center">
-
-![Languages](https://skillicons.dev/icons?i=ts,js,rust,php,html,css)
-
-</div>
+<p align="left">
+    <img src="https://skillicons.dev/icons?i=ts,js,rust,php,html,css" alt="TypeScript, JavaScript, Rust, PHP, HTML and CSS" />
+</p>
 
 ### Frontend
 
-<div align="center">
+<p align="left">
+    <img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="React, Tailwind CSS and Vite" />
+</p>
 
-![Frontend](https://skillicons.dev/icons?i=react,tailwind,vite)
-
-</div>
-
-<p align="center">
+<p align="left">
     React · TanStack Start · TanStack Router · TanStack Query · Tailwind CSS · shadcn/ui · Motion
 </p>
 
 ### Backend & Data
 
-<div align="center">
+<p align="left">
+    <img src="https://skillicons.dev/icons?i=bun,nodejs,postgres,redis" alt="Bun, Node.js, PostgreSQL and Redis" />
+</p>
 
-![Backend](https://skillicons.dev/icons?i=bun,nodejs,postgres,redis)
-
-</div>
-
-<p align="center">
+<p align="left">
     Bun · PostgreSQL · Redis · BullMQ · Drizzle ORM · REST APIs · WebSockets · WebAuthn
 </p>
 
 ### Infrastructure & Tools
 
-<div align="center">
+<p align="left">
+    <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,nginx" alt="Docker, Git, GitHub, GitHub Actions, Linux and Nginx" />
+</p>
 
-![Infrastructure](https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,nginx)
-
-</div>
-
-<p align="center">
+<p align="left">
     Docker · Docker Compose · Forgejo · GitHub Actions · Renovate · Proxmox · CI/CD
 </p>
 
@@ -147,21 +137,35 @@ const kevin = {
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="left">
+    <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RentnerKev&theme=github_dark"
+        alt="GitHub profile statistics"
+    />
+    <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RentnerKev&theme=github_dark"
+        alt="Languages used across repositories"
+    />
+</p>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=RentnerKev&show_icons=true&hide_border=true&theme=transparent" alt="Kevin's GitHub Stats" />
+<p align="left">
+    <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RentnerKev&theme=github_dark"
+        alt="GitHub contribution overview"
+    />
+</p>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=RentnerKev&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Kevin's Most Used Languages" />
+---
 
-</div>
+## ⚡ Random Developer Facts
 
-<br />
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=RentnerKev&hide_border=true&theme=transparent" alt="Kevin's GitHub Streak" />
-
-</div>
+```txt
+Editor tabs open:        Too many
+Docker containers:       Probably too many
+TypeScript errors:       Temporarily zero
+Production confidence:   Works on my machine
+Current mood:            bun run dev
+```
 
 ---
 
