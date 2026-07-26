@@ -9,7 +9,7 @@
     maintainable and preferably powered by Bun.
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=[RentnerKev](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&style=for-the-badge)&label=Profile%20Views&style=for-the-badge" alt="Profile Views" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=RentnerKev&show_icons=true&hide_border=true&theme=transparent" alt="GitHub Stats" />
 
 </div>
 
