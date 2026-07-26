@@ -1,3 +1,4 @@
+<img width="2172" height="724" alt="ChatGPT Image 26  Juli 2026, 10_21_11" src="https://github.com/user-attachments/assets/aeee872d-517a-454a-a0b6-e27da84eaa38" />
 <div align="center">
 
 # 👋 Hey, I'm Kevin
