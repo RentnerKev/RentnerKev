@@ -66,54 +66,6 @@ I build modern web applications, backend services and developer tools that are f
 
 ---
 
-## 🧩 Me as TypeScript
-
-```ts
-const kevin = {
-    name: 'Kevin',
-    username: 'RentnerKev',
-    role: 'Software Developer',
-
-    favoriteLanguage: 'TypeScript',
-    currentlyLearning: 'Rust',
-    preferredRuntime: 'Bun',
-
-    frontend: [
-        'React',
-        'TanStack Start',
-        'TanStack Router',
-        'TanStack Query',
-        'Tailwind CSS',
-    ],
-
-    backend: [
-        'PostgreSQL',
-        'Redis',
-        'BullMQ',
-        'Drizzle ORM',
-        'WebSockets',
-    ],
-
-    infrastructure: [
-        'Docker',
-        'Proxmox',
-        'Forgejo',
-        'GitHub Actions',
-        'Renovate',
-    ],
-
-    interests: [
-        'Modern web applications',
-        'Developer tools',
-        'Automation',
-        'Self-hosting',
-        'Clean architecture',
-    ],
-
-    status: 'Probably building something unnecessarily advanced',
-} as const
-```
-
 ---
 
 ## 🔨 Current Focus
@@ -157,16 +109,6 @@ const kevin = {
 </p>
 
 ---
-
-## ⚡ Random Developer Facts
-
-```txt
-Editor tabs open:        Too many
-Docker containers:       Probably too many
-TypeScript errors:       Temporarily zero
-Production confidence:   Works on my machine
-Current mood:            bun run dev
-```
 
 ---
 
