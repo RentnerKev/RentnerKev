@@ -66,8 +66,6 @@ I build modern web applications, backend services and developer tools that are f
 
 ---
 
----
-
 ## 🔨 Current Focus
 
 * 🦀 Improving my **Rust** skills
@@ -107,8 +105,6 @@ I build modern web applications, backend services and developer tools that are f
         alt="GitHub contribution overview"
     />
 </p>
-
----
 
 ---
 
