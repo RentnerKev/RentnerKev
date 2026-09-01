@@ -77,14 +77,6 @@ I build modern web applications, backend services and developer tools that are f
 
 ---
 
-## 🧠 Developer Philosophy
-
-> Build it fast.
-> Type it properly.
-> Automate the boring parts.
-> Refactor it before it becomes cursed.
-
----
 
 ## 📊 GitHub Stats
 
