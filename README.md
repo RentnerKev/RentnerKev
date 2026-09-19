@@ -15,7 +15,7 @@ I build modern web applications, backend services and developer tools that are f
 
 ## 🧑‍💻 About Me
 
-* 🎂 I'm an **18-year-old software developer** from Germany.
+* 🎂 I'm an **19-year-old software developer** from Germany.
 * ⚡ My main language is **TypeScript**, while I'm currently diving deeper into **Rust**.
 * 🧡 Huge fan of **TanStack**, **React** and the modern TypeScript ecosystem.
 * 🐇 I use **Bun** for package management, scripts and application runtimes.
