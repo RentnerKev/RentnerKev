@@ -1,0 +1,59 @@
+name: Update Age
+
+on:
+    schedule:
+        - cron: "17 2 * * *"
+
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    update-age:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v5
+
+            - name: Update age in README
+              shell: python
+              run: |
+                  from datetime import date
+                  from pathlib import Path
+                  import re
+
+                  birthday = date(2007, 9, 19)
+                  today = date.today()
+
+                  age = (
+                      today.year
+                      - birthday.year
+                      - ((today.month, today.day) < (birthday.month, birthday.day))
+                  )
+
+                  readme = Path("README.md")
+                  content = readme.read_text(encoding="utf-8")
+
+                  updated = re.sub(
+                      r"<!-- AGE_START -->\d+<!-- AGE_END -->",
+                      f"<!-- AGE_START -->{age}<!-- AGE_END -->",
+                      content,
+                  )
+
+                  readme.write_text(updated, encoding="utf-8")
+
+            - name: Commit updated age
+              run: |
+                  if git diff --quiet; then
+                      echo "Age is already up to date."
+                      exit 0
+                  fi
+
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+                  git add README.md
+                  git commit -m "chore: update profile age"
+                  git push
