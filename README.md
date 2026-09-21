@@ -1,4 +1,5 @@
-<img width="2172" height="724" alt="ChatGPT Image 26  Juli 2026, 10_21_11" src="https://github.com/user-attachments/assets/aeee872d-517a-454a-a0b6-e27da84eaa38" />
+<img width="2172" height="724" alt="ChatGPT Image 26 Juli 2026, 10_21_11" src="https://github.com/user-attachments/assets/aeee872d-517a-454a-a0b6-e27da84eaa38" />
+
 <div align="center">
 
 # 👋 Hey, I'm Kevin
@@ -15,8 +16,8 @@ I build modern web applications, backend services and developer tools that are f
 
 ## 🧑‍💻 About Me
 
-* 🎂 I'm an **19-year-old software developer** from Germany.
-* ⚡ My main language is **TypeScript**, while I'm currently diving deeper into **Rust**.
+* 🎂 I'm an **<!-- AGE_START -->19<!-- AGE_END -->-year-old software developer** from Germany.
+* ⚡ My main language is **TypeScript**, while I'm currently diving deeper into **Rust** and **Kotlin**.
 * 🧡 Huge fan of **TanStack**, **React** and the modern TypeScript ecosystem.
 * 🐇 I use **Bun** for package management, scripts and application runtimes.
 * 🗄️ I enjoy working with **PostgreSQL**, **Redis**, **Drizzle ORM** and **BullMQ**.
@@ -31,7 +32,7 @@ I build modern web applications, backend services and developer tools that are f
 ### Languages
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=ts,js,rust,php,html,css" alt="TypeScript, JavaScript, Rust, PHP, HTML and CSS" />
+    <img src="https://skillicons.dev/icons?i=ts,js,rust,kotlin,php,html,css" alt="TypeScript, JavaScript, Rust, Kotlin, PHP, HTML and CSS" />
 </p>
 
 ### Frontend
@@ -41,7 +42,7 @@ I build modern web applications, backend services and developer tools that are f
 </p>
 
 <p align="left">
-    React · TanStack Start · TanStack Router · TanStack Query · Tailwind CSS · shadcn/ui · Motion
+    React · TanStack Start · TanStack Router · TanStack Query · Tailwind CSS · Motion
 </p>
 
 ### Backend & Data
@@ -57,11 +58,12 @@ I build modern web applications, backend services and developer tools that are f
 ### Infrastructure & Tools
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,nginx" alt="Docker, Git, GitHub, GitHub Actions, Linux and Nginx" />
+    <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,nginx" height="48" alt="Docker, Git, GitHub, GitHub Actions, Linux and Nginx" />
+    <img src="https://cdn.simpleicons.org/caddy" height="48" alt="Caddy" />
 </p>
 
 <p align="left">
-    Docker · Docker Compose · Forgejo · GitHub Actions · Renovate · Proxmox · CI/CD
+    Docker · Docker Compose · Forgejo · GitHub Actions · Renovate · Proxmox · Nginx · Caddy · CI/CD
 </p>
 
 ---
@@ -76,7 +78,6 @@ I build modern web applications, backend services and developer tools that are f
 * 📦 Creating reusable packages, components and developer tools
 
 ---
-
 
 ## 📊 GitHub Stats
 
