@@ -17,7 +17,7 @@ I build modern web applications, backend services and developer tools that are f
 ## 🧑‍💻 About Me
 
 * 🎂 I'm an **<!-- AGE_START -->19<!-- AGE_END -->-year-old software developer** from Germany.
-* ⚡ My main language is **TypeScript**, while I'm currently diving deeper into **Rust** and **Kotlin**.
+* ⚡ My main language is **TypeScript**, while I'm currently diving deeper into **Rust**.
 * 🧡 Huge fan of **TanStack**, **React** and the modern TypeScript ecosystem.
 * 🐇 I use **Bun** for package management, scripts and application runtimes.
 * 🗄️ I enjoy working with **PostgreSQL**, **Redis**, **Drizzle ORM** and **BullMQ**.
