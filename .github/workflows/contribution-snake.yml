@@ -1,0 +1,73 @@
+name: Generate contribution snake
+
+'on':
+  schedule:
+    - cron: '29 3 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: RentnerKev
+
+          outputs: |
+            profile-snake-output/github-snake.svg
+            profile-snake-output/github-snake-dark.svg?palette=github-dark
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: contribution-snake
+          path: profile-snake-output/
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/download-artifact@v8
+        with:
+          name: contribution-snake
+          path: profile-snake-output/
+
+      - name: Validate and commit SVGs to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+
+          for name in ('github-snake.svg', 'github-snake-dark.svg'):
+              path = Path('profile-snake-output') / name
+              if not path.is_file() or path.stat().st_size == 0:
+                  raise SystemExit(f'Missing or empty SVG: {name}')
+              root = ET.parse(path).getroot()
+              if root.tag != '{http://www.w3.org/2000/svg}svg':
+                  raise SystemExit(f'Unexpected SVG document: {name}')
+          PY
+          git add -- profile-snake-output/github-snake.svg profile-snake-output/github-snake-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: update contribution snake'
+          git push origin HEAD:main
