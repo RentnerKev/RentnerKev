@@ -87,10 +87,12 @@ I build modern web applications, backend services and developer tools that are f
         alt="GitHub profile statistics"
     />
     <img
-        src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RentnerKev&theme=github_dark"
-        alt="Languages used across repositories"
+        src="https://raw.githubusercontent.com/RentnerKev/RentnerKev/main/profile-summary-card-output/github_dark/1-repos-per-language.svg"
+        alt="Languages used across repositories, including private repositories when authorized"
     />
 </p>
+
+<p align="left"><sub>Includes private repositories when authorized.</sub></p>
 
 <p align="left">
     <img
