@@ -1,0 +1,114 @@
+name: Generate profile language card
+
+'on':
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: profile-language-card
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+        with:
+          USERNAME: RentnerKev
+          THEME: github_dark
+          AUTO_PUSH: false
+
+      - name: Validate public SVG
+        shell: bash
+        run: |
+          set -euo pipefail
+          card='profile-summary-card-output/github_dark/1-repos-per-language.svg'
+          test -s "$card"
+          python3 - "$card" <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+
+          source = Path(sys.argv[1]).read_text(encoding='utf-8')
+          if any(marker in source for marker in ('<!--', '<![', '<?')):
+              raise SystemExit('Unexpected SVG markup')
+          root = ET.fromstring(source)
+          if root.tag != '{http://www.w3.org/2000/svg}svg':
+              raise SystemExit('Expected an SVG document')
+
+          allowed = {
+              'svg': {'width', 'height', 'viewBox'},
+              'style': set(),
+              'g': {'class', 'transform', 'style'},
+              'rect': {'x', 'y', 'rx', 'ry', 'height', 'width', 'stroke', 'stroke-width', 'fill', 'stroke-opacity', 'class', 'style'},
+              'text': {'x', 'y', 'class', 'style'},
+              'path': {'d', 'style', 'stroke'},
+          }
+          labels = []
+          for element in root.iter():
+              tag = element.tag.rsplit('}', 1)[-1]
+              if tag not in allowed:
+                  raise SystemExit('Unexpected SVG element')
+              if set(element.attrib) - allowed[tag]:
+                  raise SystemExit('Unexpected SVG attribute')
+              if tag == 'text':
+                  labels.append(''.join(element.itertext()).strip())
+              for value in (element.text or '', *element.attrib.values()):
+                  if re.search(r'https?://|github\.com|url\(|@import|github_pat_|gh[pousr]_', value, re.I):
+                      raise SystemExit('Unexpected SVG content')
+
+          if not 2 <= len(labels) <= 6 or labels[0] != 'Top Languages by Repo':
+              raise SystemExit('Unexpected SVG labels')
+          if any(not label or '/' in label or '\\' in label or '@' in label for label in labels[1:]):
+              raise SystemExit('Unexpected language label')
+          PY
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: profile-language-card
+          path: profile-summary-card-output/github_dark/1-repos-per-language.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/download-artifact@v8
+        with:
+          name: profile-language-card
+          path: profile-summary-card-output/github_dark
+
+      - name: Commit language card to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          card='profile-summary-card-output/github_dark/1-repos-per-language.svg'
+          test -s "$card"
+          git add -- "$card"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          test "$(git diff --cached --name-only)" = "$card"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: update profile language card'
+          git push origin HEAD:main
+
