@@ -10,6 +10,12 @@ I build modern web applications, backend services and developer tools that are f
 
 ![Profile Views](https://komarev.com/ghpvc/?username=RentnerKev\&label=Profile%20Views\&style=for-the-badge)
 
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RentnerKev/RentnerKev/main/profile-snake-output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RentnerKev/RentnerKev/main/profile-snake-output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/RentnerKev/RentnerKev/main/profile-snake-output/github-snake.svg" alt="Animated GitHub contribution heatmap with a snake" />
+</picture>
+
 </div>
 
 ---
@@ -88,16 +94,7 @@ I build modern web applications, backend services and developer tools that are f
     />
     <img
         src="https://raw.githubusercontent.com/RentnerKev/RentnerKev/main/profile-summary-card-output/github_dark/1-repos-per-language.svg"
-        alt="Languages used across repositories, including private repositories when authorized"
-    />
-</p>
-
-<p align="left"><sub>Includes private repositories when authorized.</sub></p>
-
-<p align="left">
-    <img
-        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RentnerKev&theme=github_dark"
-        alt="GitHub contribution overview"
+        alt="Languages used across repositories"
     />
 </p>
 
