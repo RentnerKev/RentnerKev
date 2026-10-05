@@ -38,7 +38,7 @@ I build modern web applications, backend services and developer tools that are f
 ### Languages
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=ts,js,rust,kotlin,php,html,css" alt="TypeScript, JavaScript, Rust, Kotlin, PHP, HTML and CSS" />
+    <img src="https://skillicons.dev/icons?i=ts,js,rust,go,php,html,css" alt="TypeScript, JavaScript, Rust, GoLang, PHP, HTML and CSS" />
 </p>
 
 ### Frontend
