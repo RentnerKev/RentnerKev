@@ -45,10 +45,11 @@ I build modern web applications, backend services and developer tools that are f
 
 <p align="left">
     <img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="React, Tailwind CSS and Vite" />
+    <img src="https://cdn.simpleicons.org/lucide/000000/FFFFFF" alt="Lucide" width="48" height="48" />
 </p>
 
 <p align="left">
-    React · TanStack Start · TanStack Router · TanStack Query · Tailwind CSS · Motion
+    React · TanStack Start · TanStack Router · TanStack Query · Tailwind CSS · Motion · Lucide
 </p>
 
 ### Backend & Data
