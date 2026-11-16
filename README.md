@@ -55,8 +55,8 @@ I build modern web applications, backend services and developer tools that are f
 ### Backend & Data
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=bun,nodejs,postgres,redis" alt="Bun, Node.js, PostgreSQL and Redis" />
-  <img src="https://cdn.simpleicons.org/valkey" alt="Valkey" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=bun,nodejs,postgres,redis" alt="Bun, Node.js, PostgreSQL, Redis" />
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/valkey/default.svg" alt="Valkey" width="48" height="48" />
 </p>
 
 <p align="left">
