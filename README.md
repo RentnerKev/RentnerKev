@@ -26,7 +26,7 @@ I build modern web applications, backend services and developer tools that are f
 * ⚡ My main language is **TypeScript**, while I'm currently diving deeper into **Rust**.
 * 🧡 Huge fan of **TanStack**, **React** and the modern TypeScript ecosystem.
 * 🐇 I use **Bun** for package management, scripts and application runtimes.
-* 🗄️ I enjoy working with **PostgreSQL**, **Redis**, **Drizzle ORM** and **BullMQ**.
+* 🗄️ I enjoy working with **PostgreSQL**, **Valkey**, **Drizzle ORM** and **BullMQ**.
 * 🐳 I self-host services using **Docker**, **Proxmox** and **Forgejo**.
 * 🧪 I love turning random ideas into actual projects.
 * 🔧 Clean code, strong typing and sensible automation make me happy.
@@ -55,11 +55,11 @@ I build modern web applications, backend services and developer tools that are f
 ### Backend & Data
 
 <p align="left">
-    <img src="https://skillicons.dev/icons?i=bun,nodejs,postgres,redis" alt="Bun, Node.js, PostgreSQL and Redis" />
+    <img src="https://skillicons.dev/icons?i=bun,nodejs,postgres,redis,valkey" alt="Bun, Node.js, PostgreSQL and Redis" />
 </p>
 
 <p align="left">
-    Bun · PostgreSQL · Redis · BullMQ · Drizzle ORM · REST APIs · WebSockets · WebAuthn
+    Bun · PostgreSQL · Redis  · Valkey · BullMQ · Drizzle ORM · REST APIs · WebSockets · WebAuthn
 </p>
 
 ### Infrastructure & Tools
@@ -79,7 +79,7 @@ I build modern web applications, backend services and developer tools that are f
 
 * 🦀 Improving my **Rust** skills
 * ⚛️ Building full-stack applications with **TanStack Start**
-* 🗃️ Designing reliable systems with **PostgreSQL** and **Redis**
+* 🗃️ Designing reliable systems with **PostgreSQL** and **Valkey**
 * ⚙️ Automating deployments, releases and dependency updates
 * ☁️ Developing integrations for self-hosted platforms
 * 📦 Creating reusable packages, components and developer tools
